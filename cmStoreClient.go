@@ -16,7 +16,7 @@ func NewCMStore(store *libDatabox.CoreStoreClient) *CMStore {
 
 	//setup SLAStore
 	store.RegisterDatasource(libDatabox.DataSourceMetadata{
-		Description:    "Persistant SLA storage",
+		Description:    "Persistent SLA storage",
 		ContentType:    "json",
 		Vendor:         "databox",
 		DataSourceType: "databox:container-manager:SLA",
